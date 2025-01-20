@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    /* 余白を削除 */
+    padding: 0;
+    /* 必要なら内部余白も削除 */
+}
+/* ヘッダー */
+.header {
+    background-color: #000;
+    padding: 15px 20px;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 検索フォーム */
+.search-form {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+.error {
+    color: red;
+    /* 赤色に設定 */
+    font-size: 14px;
+    /* フォントサイズを調整 */
+    margin-top: 5px;
+    /* フォーム項目との間に余白を追加 */
+}
+
+.search-input {
+    width: 40%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ナビゲーションメニュー */
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.header-nav .sell-btn {
+    background-color: #fff;
+    color: #000;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+.header-nav .sell-btn:hover {
+    background-color: #ddd;
+}
+.logout{
+    display: inline;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+.logout:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+/* フォームコンテナ */
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: none;
+
+    background-color: #fff;
+    text-align: center;
+}
+
+/* フォームタイトル */
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* フォームグループ */
+.form-group {
+    margin-bottom: 30px;
+    text-align: left;
+
+
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* ボタン */
+.btn-danger {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-danger:hover {
+    background-color: #e65a50;
+}
+/* 会員登録リンク */
+.register-link {
+    margin-top: 15px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

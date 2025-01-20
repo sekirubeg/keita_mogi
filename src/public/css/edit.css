@@ -1,0 +1,94 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.title{
+    text-align: center;
+}
+
+.profile-form {
+    text-align: left;
+}
+
+.profile-image {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-preview {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.image-upload-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ff6b6b;
+    border: 1px #ff6b6b solid;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ff6b6b;
+    background-color: #fff;
+    margin-left: 30px;
+}
+
+.image-upload-btn:hover {
+    background-color: #ff4c4c;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type="text"]:focus {
+    border-color: #ff6b6b;
+    outline: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff4c4c;
+}
